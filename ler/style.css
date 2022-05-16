@@ -1,0 +1,124 @@
+/* Importa folhas de estilos principal */
+
+@import url('/style.css');
+
+/* Folhas de estilo de ler */
+
+.author-date {
+    margin-top: 1rem;
+    font-size: small;
+    text-align: right;
+    font-style: italic;
+}
+
+section img {
+    width: 100%;
+    max-width: auto;
+}
+
+.author-meta img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    border-radius: .5rem;
+}
+
+.author-meta ul {
+    font-size: small;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.author-article {
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.author-article:last-child {
+    margin-bottom: 0;
+}
+
+.author-article:hover h4 {
+    color: steelblue;
+}
+
+.author-article h4 {
+    margin: 0;
+}
+
+/* Modal */
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    padding-bottom: 0;
+}
+
+.modal-content h3 {
+    margin: 0;
+}
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Comentários */
+
+.comment {
+    background: rgb(224, 224, 224);
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+.comment:last-child {
+    margin-bottom: 0;
+}
+
+.comment-meta {
+    border-bottom: 1px dotted grey;
+    padding-bottom: .25rem;
+    font-style: italic;
+    margin-bottom: .25rem;
+    font-size: .8rem;
+}

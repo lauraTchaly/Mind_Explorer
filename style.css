@@ -1,0 +1,504 @@
+/**
+ * Folhas de estilo globais.
+ * Essa são as folhas de estilo do tema. 
+ * Além dessas, cada página ou seção pode ter suas próprias folhas de estilo.
+ *
+ * By Luferat - https://github.com/luferat
+ */
+
+/* RESET - Padroniza a visualização dos elementos na maioria dos navegadores. */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    transition: .2s;
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /* Define a fonte padrão do aplicativo. */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Define a unidade "1rem" (1rem = 16px). */
+    font-size: 16px;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+header,
+nav,
+section,
+article,
+main,
+aside,
+footer {
+    display: block;
+}
+
+/**
+ * Fundo da página.
+ */
+
+body {
+    background-color: rgb(170, 170, 170);
+    background-attachment: fixed;
+    background-image: url('/img/gray_background_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/**
+ * Quadro principal.
+ */
+
+.wrap {
+    /* Ativa "Sticky footer". */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Limita largura e centraliza a página em larguras maiores. */
+    width: 100%;
+    max-width: 1080px;
+    min-width: 280px;
+    margin: auto;
+}
+
+/**
+ * Estilos do cabeçalho. 
+ */
+
+.wrap>header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, .7);
+}
+
+/* Logotipo usando "Font Awesome". */
+.wrap>header a {
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    padding-left: .5rem;
+    margin-top: -.5rem;
+}
+
+.wrap>header h1 {
+    margin: 0;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: .6rem;
+}
+
+.wrap>header small {
+    display: block;
+    font-size: .75rem;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+
+/**
+ * Estilos do menu principal.
+ */
+
+.wrap>nav {
+    background: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1px 0;
+}
+
+.wrap>nav a {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.wrap>nav a:hover {
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+.wrap>nav span {
+    display: inline-block;
+    margin-top: .25rem;
+}
+
+.wrap>nav i {
+    font-size: 2rem;
+}
+
+.wrap>nav img {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    border-radius: 50%;
+}
+
+/**
+ * Estilos do rodapé.
+ */
+
+.wrap>footer {
+    background: rgba(0, 0, 0, .75);
+    padding: 1px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrap>footer a {
+    display: block;
+    padding: .25rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.wrap>footer a:hover {
+    background: white;
+    color: black;
+}
+
+.wrap>footer div {
+    font-size: .8rem;
+    text-align: center;
+}
+
+
+/**
+ * Conteúdo central.
+ */
+
+.wrap>main {
+    /* Ativa "Sticky footer". */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap>main>section,
+.wrap>main>aside {
+    padding: 1rem;
+}
+
+.wrap>main>section {
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.wrap>main>aside {
+    border-top: 3px dotted grey;
+    background: rgba(224, 224, 224, .85);
+}
+
+.wrap>main>section>h2:first-child,
+.wrap>main>aside>h3:first-child {
+    margin: 0;
+}
+
+/**
+ * Página inicial (/index.php).
+ */
+
+.item {
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 1rem;
+    border: 1px dotted grey;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.items .item:last-child {
+    margin-bottom: 0;
+}
+
+.item .thumb {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item .body {
+    padding: .5rem;
+}
+
+.item .body span {
+    font-size: .9rem;
+}
+
+.item h4 {
+    margin: 0 0 .25rem 0;
+}
+
+/**
+ * Estilos de uso geral.
+ * Podem ser aplicados em qualquer página do aplicativo.
+ */
+
+.text-center {
+    text-align: center;
+}
+
+.block-center {
+    display: table;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.user-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+hr.divider {
+    border: none;
+    border-top: 1px dotted grey;
+    border-bottom: 1px dotted grey;
+    height: 3px;
+    margin: 1rem 0;
+}
+
+/**
+ * Botões e campos de formulário.
+ * Podem ser aplicados em qualquer página do aplicativo.
+ */
+
+form label {
+    display: block;
+    margin-bottom: .25rem;
+    margin-left: .25rem;
+}
+
+form input,
+form textarea,
+form button,
+form button[onclick] {
+    font-family: inherit;
+    font-size: inherit;
+    padding: .25rem .5rem;
+    border: 1px solid grey;
+    border-radius: .3rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+}
+
+form textarea {
+    height: 6rem;
+    resize: vertical;
+}
+
+form button,
+form button[onclick] {
+    background: steelblue;
+    color: white;
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+form button:hover,
+form button[onclick]:hover {
+    background: orangered;
+}
+
+/* Marca campos inválidos. */
+
+form input:invalid,
+form textarea:invalid {
+    background: rgb(255, 207, 207);
+    border-bottom: 3px solid red;
+}
+
+/* Marca campos válidos. */
+
+form input:valid,
+form textarea:valid {
+    background: rgb(232, 240, 254);
+    border-bottom: 3px solid green;
+}
+
+/* Desabilita botão de envio se formulário está inválido. */
+
+form:invalid button {
+    background: rgb(88, 88, 88);
+    color: rgb(219, 219, 219);
+    cursor: not-allowed;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+}
+
+form input.password {
+    max-width: 50%;
+}
+
+/* Botão que mostra/oculta senha. */
+
+form button[id="passToggle"],
+form button[id="newPassToggle"] {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+/**
+ * Responsividade.
+ * Largura >= 426px.
+ */
+
+@media (min-width: 426px) {
+
+    .items {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
+/**
+ * Responsividade.
+ * Largura >= 576px.
+ */
+
+@media (min-width: 576px) {
+
+    .items {
+        display: block;
+        margin: 0;
+    }
+
+    .item {
+        display: flex;
+    }
+
+    .item .thumb {
+        width: 15%;
+    }
+
+}
+
+/**
+ * Responsividade.
+ * Largura >= 768px.
+ */
+
+@media (min-width: 768px) {
+
+    .wrap>nav {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .wrap>nav a {
+        flex-direction: row;
+        justify-content: center;
+        padding: .5rem 1rem;
+        width: auto;
+    }
+
+    .wrap>nav a:first-child {
+        margin-right: auto;
+    }
+
+    .wrap>nav i {
+        font-size: 1.1rem;
+    }
+
+    .wrap>nav span {
+        display: inline-block;
+        margin-top: 0;
+        margin-left: .25rem;
+    }
+
+    .wrap>nav img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+
+    .wrap>main {
+        flex-direction: row;
+    }
+
+    .wrap>main>aside {
+        border-top: none;
+        border-left: 3px dotted grey;
+        flex: 0 0 200px;
+    }
+
+}
+
+/**
+ * Artigos mais visitados na barra lateral.
+ */
+.side-art-box {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.side-art-title {
+    font-weight: bold;
+}
+
+.side-art-title:hover {
+    color: steelblue;
+}
+
+.side-art-intro {
+    font-size: small;
+}
+
+/**
+ * Lista de redes sociais na barra lateral.
+ */
+.aside-social-box {
+    margin-top: 1rem;
+}
+
+.aside-social-box a {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.aside-social-box i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
