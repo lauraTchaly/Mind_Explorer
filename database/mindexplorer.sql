@@ -57,6 +57,43 @@ CREATE TABLE contacts (
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     status ENUM('on', 'off', 'deleted') DEFAULT 'on'
 );
+CREATE TABLE about(
+    about_id INT PRIMARY KEY AUTO_INCREMENT,
+    about_name VARCHAR(255),
+    about_email VARCHAR(255),
+    about_birthday date,
+    about_cell varchar(15),
+    about_specialties varchar(255)
+
+);
+INSERT INTO about(
+    about_name,
+    about_email,
+    about_birthday,
+    about_cell,
+    about_specialties
+)VALUES
+(
+    'Natan dos Santos Coelho',
+    'Natancoelho@gmail.com',
+    '23/07/2001',
+    '(21) 99768-0067',
+    'Programador, estudante de Pscicologia'
+),
+(
+    'Laura Tchaly Manes dos Santos',
+    'lauratchaly@gmail.com',
+    '20/10/2003',
+    '(21) 99213-5211',
+    'programadora, estudante de psicologia'
+),
+(
+    'Sandro Cesar Dantas Pereira',
+    'sandropereira@gmail,com',
+    '30/09/1991',
+    '(21) 99903-5770',
+    'Programador, produtor musical, estudante de psicologia'
+);
 
 -- Insere dados em 'users'
 INSERT INTO users (

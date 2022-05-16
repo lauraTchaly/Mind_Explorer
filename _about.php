@@ -11,7 +11,7 @@
  *     → https://www.php.net/manual/pt_BR/function.include.php
  *     → https://www.php.net/manual/pt_BR/language.variables.superglobals.php
  */
-require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/sobre/index.php');
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *
@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
  *     → https://www.w3schools.com/php/php_variables.asp
  *     → https://www.php.net/manual/pt_BR/language.variables.basics.php
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Explorando a mente humana...";
 
 /**
  * Inclui o cabeçalho da página.

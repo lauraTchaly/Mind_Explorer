@@ -15,12 +15,8 @@ $sobre = '';
 // SQL que obtém todos os artigos.
 $sql = <<<SQL
 
-SELECT art_id, art_title, art_intro, art_thumb 
-    FROM articles
-WHERE art_status = 'on'
-    AND art_date <= NOW()
-ORDER BY art_date DESC;
-
+SELECT about_id, about_name, about_email, about_birthday, about_cell, about_specialties
+    FROM about
 SQL;
 
 // Executa a query --> '$res' contém os artigos encontrados.
