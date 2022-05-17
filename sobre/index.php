@@ -3,7 +3,7 @@
 /**
  * Arquivo que faz a configuração incial da página.
  */
-require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/_config2.php');
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *

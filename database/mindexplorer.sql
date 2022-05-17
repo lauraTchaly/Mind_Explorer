@@ -66,6 +66,7 @@ CREATE TABLE about(
     about_specialties varchar(255)
 
 );
+-- criar tabela sobre
 INSERT INTO about(
     about_name,
     about_email,
@@ -106,49 +107,49 @@ INSERT INTO users (
     user_type
 ) VALUES 
 (
-    'Setembrino Trocatapas',
-    'set@brino.com',
-    '1990-10-14',
+    'Natan dos Santos coelho',
+    'natancoelho@gmail.com',
+    '2001-07-23',
     'https://randomuser.me/api/portraits/lego/6.jpg',
-    'Programador, agricultor, enrolador, fazedor de nada.',
-    SHA1('Qw3rtyui0P'),
-    'author'
-),
-(
-    'Emegarda Sirineuza',
-    'emen@siri.com',
-    '2000-01-11',
-    'https://randomuser.me/api/portraits/lego/3.jpg',
-    'Cantora, compositora, arranjadora, arrumadora e operadora.',
-    SHA1('Qw3rtyui0P'),
-    'user'
-),
-(
-    'Eletricildo Chocante',
-    'eletro@choque.com',
-    '1981-05-02',
-    'https://randomuser.me/api/portraits/lego/5.jpg',
-    'Motorista, eletricista, ortopedista e horista.',
+    'Progamador, estudante, amante do conhecimento da mente humana.',
     SHA1('Qw3rtyui0P'),
     'admin'
 ),
 (
-    'Juanita Malita',
-    'nitamalita@gmail.com',
-    '1991-10-12',
-    'https://randomuser.me/api/portraits/lego/1.jpg',
-    'Motorista, eletricista, ortopedista e horista.',
+    'Laura Tchaly Manes dos Santos',
+    'lauratchaly@gmail.com',
+    '2003-10-20',
+    'https://randomuser.me/api/portraits/lego/3.jpg',
+    'Progamadora, estudade de psicologia e do conhecimento humano.',
     SHA1('Qw3rtyui0P'),
-    'author'
+    'admin'
 ),
 (
-    'Genesito Malito',
-    'genemalito@google.com',
-    '2000-11-01',
-    'https://randomuser.me/api/portraits/lego/2.jpg',
-    'Motorista, eletricista, ortopedista e horista.',
+    'Sandro Cesar Dantas Pereira',
+    'sandropereira@gmail.com',
+    '1991-09-30',
+    'https://randomuser.me/api/portraits/lego/5.jpg',
+    'Progamador, estudante, produtor musical, e entusiasta do desenvolvimento humano.',
     SHA1('Qw3rtyui0P'),
-    'author'
+    'admin'
+),
+(
+    'Laura Tchaly Manes dos Santos',
+    'lauratchaly@gmail.com',
+    '2003-10-20',
+    'https://randomuser.me/api/portraits/lego/3.jpg',
+    'Progamadora, estudade de psicologia e do conhecimento humano.',
+    SHA1('Qw3rtyui0P'),
+    'admin'
+),
+(
+    'Sandro Cesar Dantas Pereira',
+    'sandropereira@gmail.com',
+    '1991-09-30',
+    'https://randomuser.me/api/portraits/lego/5.jpg',
+    'Progamador, estudante, produtor musical, e entusiasta do desenvolvimento humano.',
+    SHA1('Qw3rtyui0P'),
+    'admin'
 );
 
 -- Insere dados em 'articles'
@@ -160,22 +161,22 @@ INSERT INTO articles (
     art_author
 ) VALUES
 (
-    'Primeiro artigo',
-    'Como fazer alguma coisa que você não sabe fazer.',
+    'Autismo',
+    'O que é?, Vamos entender sobre!',
     '/img/articles/altismo.JPG',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="https://picsum.photos/400/300" alt="Imagem aleátória"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://guithub.com/Luferat">GitHub do Fessô</a></li><li><a href="http://catabits.com.br">Blog do Fessô</a></li><li><a href="https://bit.ly/LuferatMeet">Google Meet do Fessô</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
     '1'
 ),
 (
-    'Veja como isso é feito',
-    'Aprenda a fazer da forma certa o que você sempre fez errado.',
+    'Ansiedade',
+    'A doença do século',
     '/img/articles/2.jpg',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="https://picsum.photos/400/300" alt="Imagem aleátória"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://guithub.com/Luferat">GitHub do Fessô</a></li><li><a href="http://catabits.com.br">Blog do Fessô</a></li><li><a href="https://bit.ly/LuferatMeet">Google Meet do Fessô</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
     '1'
 ),
 (
-    'Comprando o que não pode ser vendido',
-    'Neste artigo aprenderemos a fazer uma coisa que ninguém faz.',
+    'Psicologia infantil',
+    'Como a psicologia ajuda a entender a mente infantil?',
     '/img/articles/3.jpg',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="https://picsum.photos/400/300" alt="Imagem aleátória"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://guithub.com/Luferat">GitHub do Fessô</a></li><li><a href="http://catabits.com.br">Blog do Fessô</a></li><li><a href="https://bit.ly/LuferatMeet">Google Meet do Fessô</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
     '1'
@@ -190,15 +191,15 @@ INSERT INTO articles (
     art_author
 ) VALUES
 (
-    'É assim que se faz isso',
-    'Aprenda como fazer para apreder o que fazer, sabendo o que fazer.',
+    'Síndrome de Down',
+    'O que é, características e como identificar. ',
     '/img/articles/4.jpg',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="https://picsum.photos/400/300" alt="Imagem aleátória"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://guithub.com/Luferat">GitHub do Fessô</a></li><li><a href="http://catabits.com.br">Blog do Fessô</a></li><li><a href="https://bit.ly/LuferatMeet">Google Meet do Fessô</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
     '4'
 ),
 (
-    'A arte de fazer sem que se faça',
-    'Dessa forma que fazermos aquilo que deve ser feito sem que seja necessário fazer.',
+    'Depressão',
+    'Por que tantas pessoas sofrem com esse mal?',
     '/img/articles/5.jpg',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="https://picsum.photos/400/300" alt="Imagem aleátória"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://guithub.com/Luferat">GitHub do Fessô</a></li><li><a href="http://catabits.com.br">Blog do Fessô</a></li><li><a href="https://bit.ly/LuferatMeet">Google Meet do Fessô</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
     '5'
