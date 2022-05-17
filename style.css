@@ -451,12 +451,12 @@ form button[id="newPassToggle"] {
     }
 
     .wrap>main {
+        background-color: black;
         flex-direction: row;
     }
 
     .wrap>main>aside {
         border-top: none;
-        border-left: 3px dotted grey;
         flex: 0 0 200px;
     }
 
@@ -465,17 +465,19 @@ form button[id="newPassToggle"] {
 /**
  * Artigos mais visitados na barra lateral.
  */
+ 
 .side-art-box {
     margin: 1rem 0;
     cursor: pointer;
 }
 
 .side-art-title {
+    color: #006d6d;
     font-weight: bold;
 }
 
 .side-art-title:hover {
-    color: steelblue;
+    color: white;
 }
 
 .side-art-intro {
