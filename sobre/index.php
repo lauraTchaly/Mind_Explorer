@@ -2,49 +2,21 @@
 
 /**
  * Arquivo que faz a configuração incial da página.
+ * Por exemplo, conecta-se ao banco de dados.
+ * 
+ * A superglobal "$_SERVER['DOCUMENT_ROOT']" retorna o caminho da raiz do site no Windows.
+ * Ex.: C:\xampp\htdocs 
+ *     Referências:
+ *     → https://www.w3schools.com/php/php_includes.asp
+ *     → https://www.php.net/manual/pt_BR/function.include.php
+ *     → https://www.php.net/manual/pt_BR/language.variables.superglobals.php
  */
-require($_SERVER['DOCUMENT_ROOT'] . '/_config2.php');
+require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *
  ***********************************************/
 
-// Variável que armazena todos os artigos para exibição no HTML.
-$sobre = '';
-
-// SQL que obtém todos os artigos.
-$sql = <<<SQL
-
-SELECT about_id, about_name, about_email, about_birthday, about_cell, about_specialties
-    FROM about
-SQL;
-
-// Executa a query --> '$res' contém os artigos encontrados.
-$res = $conn->query($sql);
-
-// Abre a lista de artigos.
-$artigos = '<div class="items">' . "\n";
-
-// Loop que obtém cada registro de '$res'
-while ($artigo = $res->fetch_assoc()) :
-
-    // Formata HTML de saída
-    $artigos .= <<<HTML
-
-        <div class="item" onclick="location.href='/ler/?id={$artigo['art_id']}'">
-            <div class="thumb" style="background-image: url('{$artigo['art_thumb']}')" title="Imagem de {$artigo['art_title']}"></div>
-            <div class="body">
-                <h4>{$artigo['art_title']}</h4>
-                <span>{$artigo['art_intro']}</span>
-            </div>
-        </div>
-
-HTML;
-
-endwhile;
-
-// Fecha a lista de artigos.
-$artigos .= '</div>';
 
 /************************************************
  * Seus códigos PHP desta página terminam aqui! *
@@ -52,6 +24,11 @@ $artigos .= '</div>';
 
 /**
  * Variável que define o título desta página.
+ * Essa variável é usada no arquivo "_header.php".
+ * OBS: para a página inicial (index.php) usaremos o 'slogan' do site.
+ *     Referências:
+ *     → https://www.w3schools.com/php/php_variables.asp
+ *     → https://www.php.net/manual/pt_BR/language.variables.basics.php
  */
 $title = "Quem tem fome tem pressa...";
 
@@ -64,25 +41,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <section>
 
-    <?php
-
-    // Exibe todos os artigos.
-    echo $artigos;
-
-    ?>
+    <h2>Título da página</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iste aliquam aperiam voluptatem molestias nemo odit unde modi cupiditate exercitationem doloremque quaerat soluta rerum quidem dignissimos officiis sapiente, aut alias!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio soluta voluptatum consequatur voluptatibus cupiditate temporibus qui, nostrum deserunt minus laudantium in officia rem dignissimos facilis modi culpa error aliquam? Quam?</p>
 
 </section>
 
 <aside>
 
-    <?php
-
-    // Obtém os artigos mais visitados para a variável $mv.
-    $mv = mostViewed();
-
-    // Se existem artigos mais visitados, exibe eles...
-    if ($mv) echo "<h3>Mais visitados</h3>{$mv}";
-    ?>
+    <h3>Lateral</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
 
 </aside>
 

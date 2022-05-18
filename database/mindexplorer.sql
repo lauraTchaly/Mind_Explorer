@@ -60,6 +60,7 @@ CREATE TABLE contacts (
 CREATE TABLE about(
     about_id INT PRIMARY KEY AUTO_INCREMENT,
     about_name VARCHAR(255),
+    about_thumb varchar (255),
     about_email VARCHAR(255),
     about_birthday date,
     about_cell varchar(15),
@@ -69,6 +70,7 @@ CREATE TABLE about(
 -- criar tabela sobre
 INSERT INTO about(
     about_name,
+    about_thumb,
     about_email,
     about_birthday,
     about_cell,
@@ -76,6 +78,7 @@ INSERT INTO about(
 )VALUES
 (
     'Natan dos Santos Coelho',
+    '/usuário_img/6.jpeg',
     'Natancoelho@gmail.com',
     '23/07/2001',
     '(21) 99768-0067',
@@ -83,6 +86,7 @@ INSERT INTO about(
 ),
 (
     'Laura Tchaly Manes dos Santos',
+    '/usuário_img/1.jpeg',
     'lauratchaly@gmail.com',
     '20/10/2003',
     '(21) 99213-5211',
@@ -90,6 +94,7 @@ INSERT INTO about(
 ),
 (
     'Sandro Cesar Dantas Pereira',
+    '/usuário_img/2.jpeg',
     'sandropereira@gmail,com',
     '30/09/1991',
     '(21) 99903-5770',
