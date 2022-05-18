@@ -52,6 +52,7 @@ footer {
  */
 
 body {
+    
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
     background-position: center;
@@ -104,9 +105,9 @@ body {
 
 .wrap>header small {
     display: block;
-    font-size: .75rem;
+    font-size: 20px;
     font-weight: normal;
-    letter-spacing: normal;
+    letter-spacing: 5px
 }
 
 /**
@@ -222,14 +223,17 @@ body {
  */
 
 .item {
+    
     background-color: rgb(240, 240, 240);
     margin-bottom: 1rem;
-    border: 1px dotted grey;
-    cursor: pointer;
+    
+    
 }
 
 .item:hover {
-    background-color: rgb(224, 224, 224);
+    color: white;
+    background-color: #6eadad;;
+    
 }
 
 .items .item:last-child {

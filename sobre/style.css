@@ -499,3 +499,6 @@ form button[id="newPassToggle"] {
     font-size: 1.5rem;
     margin-right: .5rem;
 }
+.sobre{
+    background-color: red;
+}
