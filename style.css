@@ -28,13 +28,13 @@ body {
 }
 
 a {
-    color: steelblue;
+    color:#006d6d;
     text-decoration: none;
 }
 
 a:hover {
-    color: orangered;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 header,
@@ -197,6 +197,7 @@ body {
 
 .wrap>main>section,
 .wrap>main>aside {
+    
     padding: 1rem;
 }
 
@@ -206,6 +207,7 @@ body {
 }
 
 .wrap>main>aside {
+
     border-top: 3px dotted grey;
     background: rgba(224, 224, 224, .85);
 }
