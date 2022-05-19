@@ -1,3 +1,2 @@
-# PHPDB01
-
-Aplicativo modelo full-stack usando HTML, CSS, PHP e MySQL.
+# Mind_Explorer
+Projeto final do módulo 3 do curso.

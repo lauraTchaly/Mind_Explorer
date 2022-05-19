@@ -202,6 +202,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <h3>Fontes de Pesquisas</h3>
 
     <div class="aside-social-box">
+<<<<<<< Updated upstream
 
         <a href="https://facebook.com">
             <i class="fa-brands fa-facebook fa-fw"></i>
@@ -217,6 +218,16 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
             <i class="fa-brands fa-github fa-fw"></i>
             <span>GitHub</span>
         </a>
+=======
+        <a href="https://facebook.com/Luferat">
+            <i class="fa-brands fa-facebook fa-fw"></i>
+            <span>Facebook</span>
+        </a>
+        <a href="https://youtube.com/Luferat">
+        <i class="fa-brands fa-youtube fa-fw"></i>
+            <span>Youtube</span>
+        </a>
+>>>>>>> Stashed changes
     </div>
 
 </aside>
