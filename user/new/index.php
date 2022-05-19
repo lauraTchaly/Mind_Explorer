@@ -243,14 +243,12 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <?php
-
-    // Obtém os artigos mais visitados para a variável $mv.
-    $mv = mostViewed();
-
-    // Se existem artigos mais visitados, exibe eles...
-    if ($mv) echo "<h3>Artigos Mais Vistos</h3>{$mv}";
-    ?>
+    <h3>Barra Lateral</h3>
+    <p>Coloque algum conteúdo útil aqui como fizemos <a href="/ler/?id=1">nesta página</a>. Por exemplo:</p>
+    <ul>
+        <li>Links para a seção "Sobre"</li>
+        <li>Etc...</li>
+    </ul>
 
 </aside>
 
