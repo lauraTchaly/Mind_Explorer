@@ -28,13 +28,13 @@ body {
 }
 
 a {
-    color: steelblue;
+    color:#006d6d;
     text-decoration: none;
 }
 
 a:hover {
-    color: orangered;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 header,
@@ -52,9 +52,9 @@ footer {
  */
 
 body {
+    
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
-    background-image: url('/img/gray_background_01.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,10 +71,7 @@ body {
     flex-direction: column;
     height: 100%;
     /* Limita largura e centraliza a página em larguras maiores. */
-    width: 100%;
-    max-width: 1080px;
-    min-width: 280px;
-    margin: auto;
+
 }
 
 /**
@@ -85,7 +82,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: rgba(255, 255, 255, .7);
+    background: #006d6d;
+    color: white;
 }
 
 /* Logotipo usando "Font Awesome". */
@@ -107,9 +105,9 @@ body {
 
 .wrap>header small {
     display: block;
-    font-size: .75rem;
+    font-size: 20px;
     font-weight: normal;
-    letter-spacing: normal;
+    letter-spacing: 5px
 }
 
 /**
@@ -117,7 +115,7 @@ body {
  */
 
 .wrap>nav {
-    background: rgba(0, 0, 0, .75);
+    background: #40E0D0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -136,8 +134,8 @@ body {
 }
 
 .wrap>nav a:hover {
-    color: black;
-    background: rgb(255, 255, 255);
+    color: #006d6d;;
+ 
 }
 
 .wrap>nav span {
@@ -161,7 +159,7 @@ body {
  */
 
 .wrap>footer {
-    background: rgba(0, 0, 0, .75);
+    background: #006d6d;
     padding: 1px 0;
     color: white;
     display: flex;
@@ -177,8 +175,8 @@ body {
 }
 
 .wrap>footer a:hover {
-    background: white;
-    color: black;
+    
+    color: #40E0D0;
 }
 
 .wrap>footer div {
@@ -200,6 +198,7 @@ body {
 
 .wrap>main>section,
 .wrap>main>aside {
+    
     padding: 1rem;
 }
 
@@ -209,6 +208,7 @@ body {
 }
 
 .wrap>main>aside {
+
     border-top: 3px dotted grey;
     background: rgba(224, 224, 224, .85);
 }
@@ -223,14 +223,17 @@ body {
  */
 
 .item {
+    
     background-color: rgb(240, 240, 240);
     margin-bottom: 1rem;
-    border: 1px dotted grey;
-    cursor: pointer;
+    
+    
 }
 
 .item:hover {
-    background-color: rgb(224, 224, 224);
+    color: white;
+    background-color: #6eadad;;
+    
 }
 
 .items .item:last-child {
@@ -251,7 +254,7 @@ body {
 }
 
 .item .body span {
-    font-size: .9rem;
+    font-size: 18px;
 }
 
 .item h4 {
@@ -454,12 +457,12 @@ form button[id="newPassToggle"] {
     }
 
     .wrap>main {
+        background-color: black;
         flex-direction: row;
     }
 
     .wrap>main>aside {
         border-top: none;
-        border-left: 3px dotted grey;
         flex: 0 0 200px;
     }
 
@@ -468,17 +471,19 @@ form button[id="newPassToggle"] {
 /**
  * Artigos mais visitados na barra lateral.
  */
+ 
 .side-art-box {
     margin: 1rem 0;
     cursor: pointer;
 }
 
 .side-art-title {
+    color: #006d6d;
     font-weight: bold;
 }
 
 .side-art-title:hover {
-    color: steelblue;
+    color: white;
 }
 
 .side-art-intro {

@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Vitugo - <?php echo $title ?></title>
+    <title>Mind Explorer <?php echo $title ?></title>
 </head>
 
 <body>
@@ -20,9 +20,9 @@
 
         <header>
 
-            <a href="/" title="Página inicial"><i class="fa-solid fa-bug fa-fw"></i></a>
+            <a href="/" title="Página inicial"><i class="fa-solid fa-brain"></i></a>
 
-            <h1>Vitugo<small>Quem tem fome tem pressa.</small></h1>
+            <h1>Mind Explorer<small>Explorando a mente humana.</small></h1>
 
         </header>
 

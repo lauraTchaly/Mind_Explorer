@@ -11,7 +11,6 @@ header('Content-Type: text/html; charset=utf-8');
  * Os dados da conexão estão em "/_config.ini".
  */
 
-
 // Armazena o arquivo "/_config.ini" em um array "$ini"...
 $ini = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . '/_config.ini', true);
 
@@ -272,12 +271,9 @@ function mostViewed($num = 4)
 
     $sql = <<<SQL
 
-SELECT art_id, art_title, art_intro
-FROM articles 
-WHERE art_status = 'on'
-	AND art_date <= NOW()
-ORDER BY art_views DESC
-LIMIT {$num};
+SELECT about_id, about_name, about_specialties
+FROM about
+
 
 SQL;
 
@@ -287,13 +283,13 @@ SQL;
 
     if ($res->num_rows > 0) :
 
-        while ($art = $res->fetch_assoc()) :
+        while ($abt = $res->fetch_assoc()) :
 
             $out .= <<<HTML
 
-<div class="side-art-box" onclick="location.href='/ler/?id={$art['art_id']}'">
-    <div class="side-art-title">{$art['art_title']}</div>
-    <div class="side-art-intro">{$art['art_intro']}</div>
+<div class="side-art-box" onclick="location.href='/ler/?id={$art['about_id']}'">
+    <div class="side-art-title">{$abt['art_title']}</div>
+    <div class="side-art-intro">{$abt['art_intro']}</div>
 </div>
 
 HTML;
