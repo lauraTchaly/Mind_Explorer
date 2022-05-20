@@ -57,7 +57,7 @@ SQL;
         // SQL para atualizar a senha.
         $sql = <<<SQL
 
-UPDATE users SET user_password = SHA1('{$password}')
+UPDATE users SET user_password = SHA1('{$newpassword}')
 WHERE user_id = '{$user['user_id']}'
         AND user_status = 'on';
 
@@ -183,7 +183,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 <aside>
 
     <h3>Barra Lateral</h3>
-    <p>Coloque algum conteúdo útil aqui como fizemos <a href="/ler/?id=1">nesta página</a>. Por exemplo:</p>
+    <p>Coloque algum conteúd323232323232o útil aqui como fizemos <a href="/ler/?id=1">nesta página</a>. Por exemplo:</p>
     <ul>
         <li>Links para a seção "Sobre"</li>
         <li>Etc...</li>

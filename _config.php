@@ -11,6 +11,7 @@ header('Content-Type: text/html; charset=utf-8');
  * Os dados da conexão estão em "/_config.ini".
  */
 
+
 // Armazena o arquivo "/_config.ini" em um array "$ini"...
 $ini = parse_ini_file($_SERVER['DOCUMENT_ROOT'] . '/_config.ini', true);
 

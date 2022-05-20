@@ -199,16 +199,23 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Mais contatos</h3>
+    <h3>Fontes de Pesquisas</h3>
 
     <div class="aside-social-box">
-        <a href="https://facebook.com/Luferat">
+
+        <a href="https://facebook.com">
             <i class="fa-brands fa-facebook fa-fw"></i>
             <span>Facebook</span>
         </a>
-        <a href="https://youtube.com/Luferat">
-        <i class="fa-brands fa-youtube fa-fw"></i>
+
+        <a href="https://youtube.com">
+            <i class="fa-brands fa-youtube fa-fw"></i>
             <span>Youtube</span>
+        </a>
+
+        <a href="https://github.com">
+            <i class="fa-brands fa-github fa-fw"></i>
+            <span>GitHub</span>
         </a>
     </div>
 
