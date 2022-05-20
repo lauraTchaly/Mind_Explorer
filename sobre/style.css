@@ -28,13 +28,13 @@ body {
 }
 
 a {
-    color: steelblue;
+    color:#006d6d;
     text-decoration: none;
 }
 
 a:hover {
-    color: orangered;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 header,
@@ -52,6 +52,7 @@ footer {
  */
 
 body {
+    
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
     background-position: center;
@@ -104,9 +105,9 @@ body {
 
 .wrap>header small {
     display: block;
-    font-size: .75rem;
+    font-size: 20px;
     font-weight: normal;
-    letter-spacing: normal;
+    letter-spacing: 5px
 }
 
 /**
@@ -197,6 +198,7 @@ body {
 
 .wrap>main>section,
 .wrap>main>aside {
+    
     padding: 1rem;
 }
 
@@ -206,6 +208,7 @@ body {
 }
 
 .wrap>main>aside {
+
     border-top: 3px dotted grey;
     background: rgba(224, 224, 224, .85);
 }
@@ -220,14 +223,17 @@ body {
  */
 
 .item {
+    
     background-color: rgb(240, 240, 240);
     margin-bottom: 1rem;
-    border: 1px dotted grey;
-    cursor: pointer;
+    
+    
 }
 
 .item:hover {
-    background-color: rgb(224, 224, 224);
+    color: white;
+    background-color: #6eadad;;
+    
 }
 
 .items .item:last-child {
@@ -248,7 +254,7 @@ body {
 }
 
 .item .body span {
-    font-size: .9rem;
+    font-size: 18px;
 }
 
 .item h4 {
@@ -451,12 +457,12 @@ form button[id="newPassToggle"] {
     }
 
     .wrap>main {
+        background-color: black;
         flex-direction: row;
     }
 
     .wrap>main>aside {
         border-top: none;
-        border-left: 3px dotted grey;
         flex: 0 0 200px;
     }
 
@@ -465,17 +471,19 @@ form button[id="newPassToggle"] {
 /**
  * Artigos mais visitados na barra lateral.
  */
+ 
 .side-art-box {
     margin: 1rem 0;
     cursor: pointer;
 }
 
 .side-art-title {
+    color: #006d6d;
     font-weight: bold;
 }
 
 .side-art-title:hover {
-    color: steelblue;
+    color: white;
 }
 
 .side-art-intro {
@@ -499,6 +507,54 @@ form button[id="newPassToggle"] {
     font-size: 1.5rem;
     margin-right: .5rem;
 }
-.sobre{
-    background-color: red;
+
+
+img{
+    border-radius: 20px;
+    padding: 2px 20px 0px 5px;
+    width: 100%;
+    
+   
 }
+.sobre-post{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    background-color: #006d6d;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0 .2);
+    display: flex;
+    align-items: center;
+    
+    
+}
+.sobre-post_title{
+    font-size: 15px;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color:white;
+}
+.sobre-post_text{
+    margin-right: 10px;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    color: #40E0D0;
+}
+@media screen and (max-width: 900px){
+    img{
+        
+        width: 80%;
+        
+    }
+    .sobre-post{
+        text-align: center;
+        display: block;
+        
+    }
+    .sobre-post_title{
+        text-align: center;
+    }
+    .sobre-post_text{
+        text-align: center;
+    }
+ }

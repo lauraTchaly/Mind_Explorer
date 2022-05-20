@@ -40,13 +40,53 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 ?>
 
 <section>
-
-    <div class = "sobre">
-    <p>
-        teste
-    </p>
+    <div class = "sobre-post">
+        <div class = "sobre-post_img">
+            <img src = "/usuários_img/natan2.JPG">
+</div>
+<div class ="sobre-post_info">
+    <div class = "sobre-spot_date">
+          
+        </div>
+        <h1 class = " sobre-post_title"> Natan dos Santos Coelho</h1>
+        <p class= "sobre-post_text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
     </div>
-  
+</div>
+
+<div class = "sobre-post">
+        <div class = "sobre-post_img">
+            <img src = "/usuários_img/1.jpeg">
+</div>
+<div class ="sobre-post_info">
+    <div class = "sobre-spot_date">
+          
+        </div>
+        <h1 class = " sobre-post_title"> Laura Tchaly Manes dos Santos</h1>
+        <p class= "sobre-post_text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+</div>
+
+<div class = "sobre-post">
+        <div class = "sobre-post_img">
+            <img src = "/usuários_img/sandro2.JPG">
+</div>
+<div class ="sobre-post_info">
+    <div class = "sobre-spot_date">
+          
+        </div>
+        <h1 class = " sobre-post_title"> Sandro Cesar Dantas Pereira</h1>
+        <p class= "sobre-post_text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+</div>
+
+
+   
 </section>
 
 <aside>
