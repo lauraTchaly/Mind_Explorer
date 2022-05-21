@@ -76,7 +76,7 @@ SQL;
         // Mensagem do e-mail
         $mail_message = <<<TXT
 
-Novo contato enviado para Vitugo:
+Novo contato enviado para mindexplorer:
 
  - Remetente: {$name}
  - E-mail: {$email}
@@ -118,7 +118,7 @@ endif;
 /**
  * Variável que define o título desta página.
  */
-$title = "Faça contato";
+$title = "- Faça contato";
 
 /**
  * Inclui o cabeçalho da página.

@@ -54,9 +54,14 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 </section>
 
 <aside>
+<?php
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+// Obtém os artigos mais visitados para a variável $mv.
+$mv = mostViewed();
+
+// Se existem artigos mais visitados, exibe eles...
+if ($mv) echo "<h3>Mais visitados</h3>{$mv}";
+?>
 
 </aside>
 
