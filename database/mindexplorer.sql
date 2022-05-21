@@ -118,7 +118,7 @@ INSERT INTO users (
     '/usuários_img/6.jpeg',
     'Progamador, estudante, amante do conhecimento da mente humana.',
     SHA1('Qw3rtyui0P'),
-    'admin'
+    'author'
 ),
 (
     'Laura Tchaly Manes dos Santos',
@@ -127,7 +127,7 @@ INSERT INTO users (
     '/usuários_img/1.jpeg',
     'Progamadora, estudade de psicologia e do conhecimento humano.',
     SHA1('Qw3rtyui0P'),
-    'author'
+    'admin'
 ),
 (
     'Sandro Cesar Dantas Pereira',
@@ -135,26 +135,26 @@ INSERT INTO users (
     '1991-09-30',
     '/usuários_img/2.jpeg',
     'Progamador, estudante, produtor musical, e entusiasta do desenvolvimento humano.',
-    SHA1('Qw3rtyui0P'),
-    'admin'
-),
-(
-    'Laura Tchaly Manes dos Santos',
-    'lauratchaly@gmail.com',
-    '2003-10-20',
-    '/usuários_img/1.jpeg',
-    'Progamadora, estudade de psicologia e do conhecimento humano.',
     SHA1('Qw3rtyui0P'),
     'user'
 ),
 (
+    'Laura Tchaly Manes dos Santos',
+    'lauratchaly@gmail.com',
+    '2003-10-20',
+    '/usuários_img/1.jpeg',
+    'Progamadora, estudade de psicologia e do conhecimento humano.',
+    SHA1('Qw3rtyui0P'),
+    'admin'
+),
+(
     'Sandro Cesar Dantas Pereira',
     'sandropereira@gmail.com',
     '1991-09-30',
     '/usuários_img/2.jpeg',
     'Progamador, estudante, produtor musical, e entusiasta do desenvolvimento humano.',
     SHA1('Qw3rtyui0P'),
-    'admin'
+    ''
 );
 
 -- Insere dados em 'articles'

@@ -30,7 +30,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
  *     → https://www.w3schools.com/php/php_variables.asp
  *     → https://www.php.net/manual/pt_BR/language.variables.basics.php
  */
-$title = "Quem tem fome tem pressa...";
+$title = "Explorando a mente humana";
 
 /**
  * Inclui o cabeçalho da página.
