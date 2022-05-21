@@ -144,8 +144,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
        <p>Estes termos e condições são regidos e interpretados de acordo com as leis do Mind Explorer e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.</p>
 </div>
 
-
-   
 </section>
 
 <aside>

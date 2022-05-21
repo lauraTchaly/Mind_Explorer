@@ -127,7 +127,7 @@ INSERT INTO users (
     '/usuários_img/1.jpeg',
     'Progamadora, estudade de psicologia e do conhecimento humano.',
     SHA1('Qw3rtyui0P'),
-    'admin'
+    'author'
 ),
 (
     'Sandro Cesar Dantas Pereira',
@@ -136,7 +136,7 @@ INSERT INTO users (
     '/usuários_img/2.jpeg',
     'Progamador, estudante, produtor musical, e entusiasta do desenvolvimento humano.',
     SHA1('Qw3rtyui0P'),
-    'user'
+    'admin'
 ),
 (
     'Laura Tchaly Manes dos Santos',
@@ -145,7 +145,7 @@ INSERT INTO users (
     '/usuários_img/1.jpeg',
     'Progamadora, estudade de psicologia e do conhecimento humano.',
     SHA1('Qw3rtyui0P'),
-    'admin'
+    'author'
 ),
 (
     'Sandro Cesar Dantas Pereira',
@@ -154,7 +154,7 @@ INSERT INTO users (
     '/usuários_img/2.jpeg',
     'Progamador, estudante, produtor musical, e entusiasta do desenvolvimento humano.',
     SHA1('Qw3rtyui0P'),
-    ''
+    'admin'
 );
 
 -- Insere dados em 'articles'
@@ -177,9 +177,9 @@ INSERT INTO articles (
     'Ansiedade',
     'A doença do século',
     '/img/articles/ansiedade.JPG',
-    '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="/img/articles/ansiedade.JPG" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://github.com/Natezer4">GitHub do Natan</a></li><li><a href="https://www.instagram.com/jovem.nate/">Instagram do Natan</a></li><li><a href="https://www.linkedin.com/in/natan-dos-santos-coelho-81122220a/">linkedin do Natan</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur
-     adipisicing elit. Voluptas quos quasi quis pariaturiure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
-    '1'
+    '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="/img/articles/sindromededown.JPG" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://github.com/lauraTchaly">GitHub da Laura</a></li><li><a href="https://www.instagram.com/lauratchaly/">Instagram da Laura</a></li><li><a href="https://www.linkedin.com/in/laura-tchaly-manes-dos-santos-6ba591231/">Linkedin da Laura</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, 
+    eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
+    '2'
 ),
 (
     'Psicologia infantil',
@@ -204,7 +204,7 @@ INSERT INTO articles (
     '/img/articles/sindromededown.JPG',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="/img/articles/sindromededown.JPG" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://github.com/lauraTchaly">GitHub da Laura</a></li><li><a href="https://www.instagram.com/lauratchaly/">Instagram da Laura</a></li><li><a href="https://www.linkedin.com/in/laura-tchaly-manes-dos-santos-6ba591231/">Linkedin da Laura</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, 
     eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
-    '4'
+    '2'
 ),
 (
     'Depressão',

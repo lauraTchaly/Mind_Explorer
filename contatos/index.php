@@ -97,7 +97,7 @@ TXT;
          * Usamos o '@' para ocultar mensagens de erro. 
          * MUITO CUIDADO AO USAR '@' DESTE MODO!!!
          */
-        @mail('admin@vitugo.com', 'Um contato foi enviado.', $mail_message);
+        @mail('admin@mindexplorer.com', 'Um contato foi enviado.', $mail_message);
 
         $feedback = true;
 
@@ -159,7 +159,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" name="contatos">
 
-            <p>Preencha todos os campos para entrar em contato com a equipe do Vitugo.</p>
+            <p>Preencha todos os campos para entrar em contato com a equipe do Mind Explorer.</p>
 
             <?php if ($error != '') echo '<div class="error">' . $error . '</div>'; ?>
 

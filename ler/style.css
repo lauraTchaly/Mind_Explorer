@@ -40,7 +40,12 @@ section img {
 }
 
 .author-article:hover h4 {
-    color: steelblue;
+    color: white;
+    
+}
+.author-article{
+    color:#006d6d;
+    
 }
 
 .author-article h4 {

@@ -8,7 +8,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
 /**
  * Variável que define o título desta página.
  */
-$title = "Quem tem fome tem pressa...";
+$title = "- Explorando a mente humana...";
 
 /***********************************************
  * Seus códigos PHP desta página iniciam aqui! *
@@ -278,7 +278,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 </section>
 
-<aside>
+<aside class="ath">
 
     <?php
     // Exibe os dados do autor do artigo
