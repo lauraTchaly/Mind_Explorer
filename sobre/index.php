@@ -84,8 +84,8 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
         </p>
     </div>
 </div>
-<div class="div">
-    <h2>Política Privacidade</h2>
+<div class="politica">
+    <h2>Política de Privacidade</h2>
        <p>A sua privacidade é importante para nós. É política do Mind Explorer respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href=http://mindexplorer.epizy.com>Mind Explorer</a>, e outros sites que possuímos e operamos.</p>
        <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado. </p> 
        <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p> 
@@ -121,13 +121,11 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
    <h3>Mais informações</h3>                    
        <p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p>                    
        <p>Esta política é efetiva a partir de <strong>May</strong>/<strong>2022</strong>.</p>
-</div>
-<div>
     <h2>1.Termos</h2>           
        <p>Ao acessar ao site <a href='http://mindexplorer.epizy.com'>Mind Explorer</a>, concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</p>            
     <h2>2.Uso de Licença</h2>            
-       <p>É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site Mind Explorer , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode: </p><ol><li>modificar ou copiar os materiais;  </li><li>usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);  </li>        
-          <li>tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Mind Explorer;  </li><li>remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou  </li>            
+       <p>É concedida permissão para baixar temporariamente uma cópia dos materiais (informações ou software) no site Mind Explorer , apenas para visualização transitória pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título e, sob esta licença, você não pode: </p><ol><li>modificar ou copiar os materiais;  </li><li>usar os materiais para qualquer finalidade comercial ou para exibição pública (comercial ou não comercial);  </li>        
+          <li>tentar descompilar ou fazer engenharia reversa de qualquer software contido no site Mind Explorer;  </li><li>remover quaisquer direitos autorais ou outras notações de propriedade dos materiais; ou  </li>            
           <li>transferir os materiais para outra pessoa ou 'espelhe' os materiais em qualquer outro servidor.</li></ol>            
        <p>Esta licença será automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por Mind Explorer a qualquer momento. Ao encerrar a visualização desses materiais ou após o término desta licença, você deve apagar todos os materiais baixados em sua posse, seja em formato eletrónico ou impresso.</p>            
     <h2>3.Isenção de responsabilidade</h2><ol><li>Os materiais no site da Mind Explorer são fornecidos 'como estão'. Mind Explorer não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos. </li>            
@@ -143,7 +141,6 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <h3>Lei aplicável</h3>            
        <p>Estes termos e condições são regidos e interpretados de acordo com as leis do Mind Explorer e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.</p>
 </div>
-
 </section>
 
 <aside>

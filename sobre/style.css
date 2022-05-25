@@ -517,6 +517,7 @@ img{
    
 }
 .sobre-post{
+    border-radius: 10px;
     margin-top: 10px;
     width: 100%;
     max-width: 100%;
@@ -558,3 +559,25 @@ img{
         text-align: center;
     }
  }
+ .politica{
+     border-radius: 10px;
+     padding-left: 10px;
+     background-color: #006d6d;
+ }
+ .politica p{
+     color:#40E0D0;
+ }
+.politica h2{
+    color:white;
+}
+.politica h3{
+    color:white;
+}
+.politica ul{
+    color:#40E0D0;
+}.politica li{
+    color:#40E0D0;
+}
+.politica a{
+     color:white;
+}
