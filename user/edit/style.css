@@ -1,0 +1,10 @@
+@import url('/style.css');
+
+@import url('/user/new/style.css');
+
+form[name="edituser"] {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
